@@ -1,0 +1,87 @@
+form {
+    margin-bottom: 20px;
+  }
+  .container-input{
+    display:flex;
+     justify-content:center ;
+  }
+  .textField{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+  }
+  
+  .addButton{
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkBox {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 33px;
+  }
+  .deleteButton{
+    margin-right: 23px;
+  }
+  
+  .complete-all {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .filter {
+    margin-top: 20px;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  .show{
+    margin-top: 10px;
+    display:flex;
+  }
+.compAll{
+    display:flex;
+}
